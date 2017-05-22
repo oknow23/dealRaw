@@ -47,7 +47,8 @@ class Metadata(object):
 
     @classmethod
     def from_potential_sidecar(self, filepath):
-        xmp_filepath = u'{}.xmp'.format(filepath)
+        print 'detect '+filepath
+        xmp_filepath = filepath+'.xmp'
         if os.path.exists(xmp_filepath):
             return Metadata(xmp_filepath)
         return Metadata(filepath)

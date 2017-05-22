@@ -4,7 +4,7 @@ import sys
 
 DBG = 0
 LEAST_RATING = 4
-subnameList = ['.cr2','.nef','.raw','.raf','.pef']
+subnameList = ['.cr2','.nef','.raw','.raf','.pef','.arw']
 
 #get file path
 if len(sys.argv) > 1:
@@ -19,13 +19,16 @@ for fileNames in os.listdir(rawPath):
 	i = 0
 	for subname in subnameList:
 		# print subname
-		rc = fileNames.find(subname)
+		rc = fileNames.lower().find(subname)
 		if rc >= 0:
 			break
 		i = i+1
 
 	if rc >= 0:
 		name = fileNames.rstrip(subnameList[i])
+		rc = name.find('.')
+		if rc >= 0:
+			name = fileNames.rstrip(subnameList[i].upper())
 		print '\nFind raw file:'+ name
 		frc = 0
 		for photoName in os.listdir(photoPath):
