@@ -1,6 +1,8 @@
 # dealRaw
 Do you worry about the big RAW file to occupy disk space？
+
 Deal with the RAW file is spending too much time？
+
 The tool will Deal with the rating too low raw file and delete it,and help you save time
 
 How to use:
