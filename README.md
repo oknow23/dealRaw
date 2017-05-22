@@ -16,15 +16,25 @@ The raw file delete Rule:
 - JPG file doesn't exist will delete.
 
 The result like below:
+
 Find raw file:DSCF4882 - Copy
+
 Delete not exist G:\arrangeRawFile\dist\raw\DSCF4882 - Copy.raw
 
+
 Find raw file:DSCF4882
+
 G:\arrangeRawFile\dist\DSCF4882.jpg
+
 Photo Rating: None
+
 Delete low rating file: G:\arrangeRawFile\dist\raw\DSCF4882.raw
 
+
 Find raw file:DSCF5162-fix
+
 G:\arrangeRawFile\dist\DSCF5162-fix.jpg
+
 Photo Rating: 5
+
 請按任意鍵繼續 . . .
