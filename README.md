@@ -16,10 +16,13 @@ Use below command to deal with your raw file:
 - python dealRaw.py //will use current path.
 - python dealRaw.py path //use indicate the path.
 
+Wdindows:
+- dowload https://github.com/oknow23/dealRaw/raw/master/dist/dealRaw.exe
+- Put dealRaw.exe and photos in the same folder and double click to execute it.
 
 The raw file delete Rule:
 - Rating small than 4 will delete.
-- JPG file doesn't exist will delete.
+- Correspondece JPG file doesn't exist and will delete.
 
 The result like below:
 
