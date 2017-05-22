@@ -5,6 +5,10 @@ Deal with the RAW file is spending too much time？
 
 The tool will Deal with the rating too low raw file and delete it,and help you save time
 
+Environment:
+- Install python 2.7
+- pyexiv2, a python binding to exiv2 - https://goo.gl/Qp3E1
+
 How to use:
 Use Lightroom or other photo editor to rating for your photo
 Build 'raw' folder and move your raw file to 'raw' folder
