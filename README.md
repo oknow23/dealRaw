@@ -3,7 +3,7 @@ Do you worry about the big RAW file to occupy disk space？
 
 Deal with the RAW file is spending too much time？
 
-The tool will Deal with the rating too low raw file and delete it,and help you save time
+The tool will Deal with the rating too low raw file and delete it,and help you save time.
 
 ### Environment:
 - Install python 2.7
@@ -26,27 +26,20 @@ Use below command to deal with your raw file:
 
 ### The result like below:
 
-Find raw file:DSCF4882 - Copy
-
-Delete not exist G:\arrangeRawFile\dist\raw\DSCF4882 - Copy.raw
-
-
-Find raw file:DSCF4882
-
-G:\arrangeRawFile\dist\DSCF4882.jpg
-
-Photo Rating: None
-
-Delete low rating file: G:\arrangeRawFile\dist\raw\DSCF4882.raw
+		Find raw file:DSCF4882 - Copy
+		Delete not exist G:\arrangeRawFile\dist\raw\DSCF4882 - Copy.raw
 
 
-Find raw file:DSCF5162-fix
+		Find raw file:DSCF4882
+		G:\arrangeRawFile\dist\DSCF4882.jpg
+		Photo Rating: None
+		Delete low rating file: G:\arrangeRawFile\dist\raw\DSCF4882.raw
 
-G:\arrangeRawFile\dist\DSCF5162-fix.jpg
+		Find raw file:DSCF5162-fix
+		G:\arrangeRawFile\dist\DSCF5162-fix.jpg
+		Photo Rating: 5
+		請按任意鍵繼續 . . .
 
-Photo Rating: 5
-
-請按任意鍵繼續 . . .
 
 ### Reffer:
 odinho/gmg_localfiles: GNU MediaGoblin plugin for importing files from your filesystem without duplication. - https://goo.gl/G10TnJ
